@@ -1,0 +1,13 @@
+name = "shawarma"
+main = "src/server/index.ts"
+compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-10-22"
+
+assets = { directory = "public" }
+
+[build]
+command = "esbuild src/client/index.tsx --outdir=public/dist --bundle --format=esm"
+
+[[durable_objects.bindings]]
+name = "MyAgent"
+class_name = "MyAgent"

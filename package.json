@@ -1,0 +1,28 @@
+{
+  "name": "shawarma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "wrangler": "^3.84.1"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.71",
+    "@ai-sdk/swarm": "^0.0.8",
+    "partyserver": "^0.0.57",
+    "partysocket": "^1.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
