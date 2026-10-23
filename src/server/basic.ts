@@ -27,6 +27,7 @@ export class MyAgent extends Server<Env> {
     }
     console.log("running");
     this.state.running = true;
+
     const agentA = new Agent({
       name: "Agent A",
       system: "You are a helpful agent.",
